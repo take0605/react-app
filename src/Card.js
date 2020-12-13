@@ -5,8 +5,9 @@ const Card = (props) => {
 
     return (
         <div className="wrapper">
-            <h1>{props.name}</h1>
-            <h1>{props.date}</h1>
+            <h1>id:{props.id}</h1>
+            <h1>id:{props.name}</h1>
+            <h1>id:{props.date}</h1>
         </div>
     );
 };

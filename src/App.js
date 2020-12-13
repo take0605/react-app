@@ -21,7 +21,7 @@ function App() {
       <Card name="yamane" date="2020/12/13" />
       {sampleArray.map((data) => {
         console.log(data);
-        return <Card name={data.name} date={data.date} key={data.id} />;
+        return <Card name={data.name} date={data.date} key={data.id} id={data.id} />;
 
       })}
     </div>
