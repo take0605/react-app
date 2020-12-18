@@ -1,14 +1,25 @@
 import React from 'react';
 import './Card.css';
 
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>date</th>
+    </tr>
+</table>
 const Card = (props) => {
 
     return (
-        <div className="wrapper">
-            <h1>id:{props.id}</h1>
-            <h1>id:{props.name}</h1>
-            <h1>id:{props.date}</h1>
-        </div>
+
+        <table>
+
+            <tr>
+                <th>{props.id}</th>
+                <th>{props.name}</th>
+                <th>{props.date}</th>
+            </tr>
+        </table>
     );
 };
 
