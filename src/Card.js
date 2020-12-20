@@ -1,13 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-<table>
-    <tr>
-        <th>id</th>
-        <th>name</th>
-        <th>date</th>
-    </tr>
-</table>
+
 const Card = (props) => {
 
     return (
